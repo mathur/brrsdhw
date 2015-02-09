@@ -28,12 +28,6 @@ CREATE TABLE `members` (
   PRIMARY KEY (`member_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=28 ;
 
---
--- Dumping data for table `members`
---
-
-INSERT INTO `members` VALUES(1, 'test', 'test', 'test', '098f6bcd4621d373cade4e832627b4f6');
-
 -- --------------------------------------------------------
 
 --
@@ -46,9 +40,3 @@ CREATE TABLE `Teachers` (
   `Homework` varchar(100) COLLATE latin1_general_ci DEFAULT NULL,
   `Subject` varchar(100) COLLATE latin1_general_ci DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
-
---
--- Dumping data for table `Teachers`
---
-
-INSERT INTO `Teachers` VALUES('test', 'test teacher', 'http://www.homeworkhero.com/cgi-bin/aahero05/acceptit20/display.cgi?DSETCAVAGE+nj_brrhs04', 'test subject');
